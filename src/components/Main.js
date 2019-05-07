@@ -62,20 +62,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form 
-            onSubmit={async values => {
-              try {
-                await axios.post('/', encode({ 'form-name': 'contact', ...values }), {
-                  headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-                })
-              } catch (err) {
-                window.alert(
-                  'There was a problem submitting your form! Try again or reload the page :)',
-                )
-              }
-            }}
-            name="contact" 
-            data-netlify="true">
+          <form action="post" name="contact" data-netlify="true">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name"  />
