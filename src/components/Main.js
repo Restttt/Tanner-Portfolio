@@ -1,8 +1,8 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React from 'react';
+import PropTypes from 'prop-types';
 
-import afiPicture from '../images/AFI-Image.png'
-import Tanner from '../images/tanner.png'
+import afiPicture from '../images/afiPicture.png';
+import Tanner from '../images/tanner.png';
 import ReactLogo from '../images/react-icon.png';
 import CSSLogo from '../images/css-icon.png';
 import HTMLLogo from '../images/html-logo.png';
