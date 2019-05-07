@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import afiPicture from '../images/afiPicture.png';
+import AFIPICTURE from '../images/AFIPICTURE.png';
 import Tanner from '../images/tanner.png';
 import ReactLogo from '../images/reactIcon.png';
 import CSSLogo from '../images/cssIcon.png';
@@ -45,7 +45,7 @@ class Main extends React.Component {
           <h2 className="major">Projects</h2>
           <div>
           <a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><h3>AFI PAINT & SUPPLY</h3></a>
-            <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={afiPicture} alt="website screenshot" /></a></span>
+            <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={AFIPICTURE} alt="website screenshot" /></a></span>
             <h5>REACT | JS | HTML | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
             <p>eCommerce site for a Paint Supply store. The app was built using React for a library, and utilized Material UI and SCSS for styling. I used Bcrypt for password encryption. I used Amazon S3 to upload photos and display photos on the website. ChartJS was used to display product and user data. Stripe was used for checkout for the  security and peace of mind for customers. </p>
             <p>Admins have special access to a dashboard. The dashboard shows all orders, with a search bar to search by company name or by the order id. They can customize charts to get the data they would like, as well as what chart type. They also have the ability to add new products to the database, hide products from the store, and update the inventory. </p>
