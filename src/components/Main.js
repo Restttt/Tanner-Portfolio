@@ -15,9 +15,6 @@ import AmazonLogo from '../images/amazonS3Logo.png';
 import SassLogo from '../images/sassLogo.png';
 import MaterialLogo from '../images/material-icon.png'
 
-
-
-
 class Main extends React.Component {
   render() {
 
