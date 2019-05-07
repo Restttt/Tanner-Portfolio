@@ -1,19 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import afiPicture from '../images/afiPicture.png';
-import Tanner from '../images/tanner.png';
-import ReactLogo from '../images/reactIcon.png';
-import CSSLogo from '../images/cssIcon.png';
-import HTMLLogo from '../images/htmlLogo.png';
-import ExpressLogo from '../images/expressLogo.png';
-import JSLogo from '../images/javascriptIcon.png';
-import NodeLogo from '../images/nodeLogo.png';
-import PostgresLogo from '../images/postgresIcon.png';
-import ReduxLogo from '../images/reduxLogo.png';
-import AmazonLogo from '../images/amazonS3Logo.png';
-import SassLogo from '../images/sassLogo.png';
-import MaterialLogo from '../images/material-icon.png'
+import afiPicture from '../../images/afiPicture.png';
+import Tanner from '../../images/tanner.png';
+import ReactLogo from '../../images/reactIcon.png';
+import CSSLogo from '../../images/cssIcon.png';
+import HTMLLogo from '../../images/htmlLogo.png';
+import ExpressLogo from '../../images/expressLogo.png';
+import JSLogo from '../../images/javascriptIcon.png';
+import NodeLogo from '../../images/nodeLogo.png';
+import PostgresLogo from '../../images/postgresIcon.png';
+import ReduxLogo from '../../images/reduxLogo.png';
+import AmazonLogo from '../../images/amazonS3Logo.png';
+import SassLogo from '../../images/sassLogo.png';
+import MaterialLogo from '../../images/material-icon.png'
 
 class Main extends React.Component {
   render() {
