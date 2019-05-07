@@ -3,16 +3,16 @@ import PropTypes from 'prop-types';
 
 import afiPicture from '../images/afiPicture.png';
 import Tanner from '../images/tanner.png';
-import ReactLogo from '../images/react-icon.png';
-import CSSLogo from '../images/css-icon.png';
-import HTMLLogo from '../images/html-logo.png';
-import ExpressLogo from '../images/express-logo.png';
-import JSLogo from '../images/javascript-icon.png';
-import NodeLogo from '../images/node-logo.png';
-import PostgresLogo from '../images/postgres-icon.png';
-import ReduxLogo from '../images/redux-logo.png';
-import AmazonLogo from '../images/amazon-s3-logo.png';
-import SassLogo from '../images/sass-logo.png';
+import ReactLogo from '../images/reactIcon.png';
+import CSSLogo from '../images/cssIcon.png';
+import HTMLLogo from '../images/htmlLogo.png';
+import ExpressLogo from '../images/expressLogo.png';
+import JSLogo from '../images/javascriptIcon.png';
+import NodeLogo from '../images/nodeLogo.png';
+import PostgresLogo from '../images/postgresIcon.png';
+import ReduxLogo from '../images/reduxLogo.png';
+import AmazonLogo from '../images/amazonS3Logo.png';
+import SassLogo from '../images/sassLogo.png';
 
 
 
