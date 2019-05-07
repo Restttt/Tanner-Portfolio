@@ -8,6 +8,11 @@ import CSSLogo from '../images/css-icon.png';
 import HTMLLogo from '../images/html-logo.png';
 import ExpressLogo from '../images/express-logo.png';
 import JSLogo from '../images/javascript-icon.png';
+import NodeLogo from '../images/node-logo.png';
+import PostgresLogo from '../images/postgres-icon.png';
+import ReduxLogo from '../images/redux-logo.png';
+import AmazonLogo from '../images/amazon-s3-logo.png';
+import SassLogo from '../images/sass-logo.png';
 
 
 
@@ -22,14 +27,18 @@ class Main extends React.Component {
 
         <article id="skills" className={`${this.props.article === 'skills' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Skills</h2>
-          <ul className="icons ">
-            <li><span><img src={ReactLogo} alt="react" /><h4>React</h4></span></li>
-            <li><span><img src={CSSLogo} alt="react" /><h4>React</h4></span></li>
-            <li><span><img src={HTMLLogo} alt="react" /><h4>React</h4></span></li>
-            <li><span><img src={ExpressLogo} alt="react" /><h4>React</h4></span></li>
-            <li><span><img src={JSLogo} alt="react" /><h4>React</h4></span></li>
-
-          </ul>
+          <div className="icons skills">
+            <span><img src={ReactLogo} alt="React" /><h4>React</h4></span>
+            <span><img src={CSSLogo} alt="CSS" /><h4>CSS3</h4></span>
+            <span><img src={HTMLLogo} alt="HTML" /><h4>HTML5</h4></span>
+            <span><img src={ExpressLogo} alt="Express" /><h4>Express</h4></span>
+            <span><img src={JSLogo} alt="Javascript" /><h4>JavaScript</h4></span>
+            <span><img src={NodeLogo} alt="Node" /><h4>Node</h4></span>
+            <span><img src={PostgresLogo} alt="PostgreSQL" /><h4>PostgreSQL</h4></span>
+            <span><img src={ReduxLogo} alt="Redux" /><h4>Redux</h4></span>
+            <span><img src={AmazonLogo} alt="AmazonS3" /><h4>Amazon S3</h4></span>
+            <span><img src={SassLogo} alt="Sass" /><h4>Sass</h4></span>
+          </div>
           {close}
         </article>
 
@@ -37,7 +46,7 @@ class Main extends React.Component {
           <h2 className="major">Work</h2>
           <div>
             <h3>AFI PAINT & SUPPLY</h3>
-            <span className="image main"><a href="https://tannerpaintsupply.com/#/" target="_blank"><img src={afiPicture} alt="" /></a></span>
+            <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={afiPicture} alt="" /></a></span>
             <h5>REACT | JS | HTML | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
             <p>eCommerce site for a Paint Supply store. The app was built using React for a library, and utilized Material UI and SCSS for styling. I used Bcrypt for password encryption. I used Amazon S3 to upload photos and display photos on the website. ChartJS was used to display product and user data. Stripe was used for checkout for the  security and peace of mind for customers. </p>
             <p>Admins have special access to a dashboard. The dashboard shows all orders, with a search bar to search by company name or by the order id. They can customize charts to get the data they would like, as well as what chart type. They also have the ability to add new products to the database, hide products from the store, and update the inventory. </p>
@@ -54,7 +63,7 @@ class Main extends React.Component {
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
               <label htmlFor="name">Name</label>
               <input type="text" name="name" id="name" />
@@ -73,10 +82,10 @@ class Main extends React.Component {
             </ul>
           </form>
           <ul className="icons">
-            <li><a href="https://twitter.com/RestAOV" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
-            <li><a href="https://www.facebook.com/tanner.scadden" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="https://www.linkedin.com/in/tanner-scadden/" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
-            <li><a href="https://github.com/Restttt" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
+            <li><a href="https://twitter.com/RestAOV" rel="noopener noreferrer" target="_blank" className="icon fa-twitter"><span className="label">Twitter</span></a></li>
+            <li><a href="https://www.facebook.com/tanner.scadden" rel="noopener noreferrer" target="_blank" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+            <li><a href="https://www.linkedin.com/in/tanner-scadden/" rel="noopener noreferrer" target="_blank" className="icon fa-linkedin"><span className="label">Linkedin</span></a></li>
+            <li><a href="https://github.com/Restttt" rel="noopener noreferrer" target="_blank" className="icon fa-github"><span className="label">GitHub</span></a></li>
           </ul>
           {close}
         </article>
