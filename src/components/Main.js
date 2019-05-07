@@ -13,6 +13,7 @@ import PostgresLogo from '../images/postgresIcon.png';
 import ReduxLogo from '../images/reduxLogo.png';
 import AmazonLogo from '../images/amazonS3Logo.png';
 import SassLogo from '../images/sassLogo.png';
+import MaterialLogo from '../images/material-icon.png'
 
 
 
@@ -38,14 +39,15 @@ class Main extends React.Component {
             <span><img src={ReduxLogo} alt="Redux" /><h4>Redux</h4></span>
             <span><img src={AmazonLogo} alt="AmazonS3" /><h4>Amazon S3</h4></span>
             <span><img src={SassLogo} alt="Sass" /><h4>Sass</h4></span>
+            <span><img src={MaterialLogo} alt="MaterialUI" /><h4>Material UI</h4></span>
           </div>
           {close}
         </article>
 
-        <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
-          <h2 className="major">Work</h2>
+        <article id="projects" className={`${this.props.article === 'projects' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
+          <h2 className="major">Projects</h2>
           <div>
-            <h3>AFI PAINT & SUPPLY</h3>
+          <a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><h3>AFI PAINT & SUPPLY</h3></a>
             <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={afiPicture} alt="website screenshot" /></a></span>
             <h5>REACT | JS | HTML | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
             <p>eCommerce site for a Paint Supply store. The app was built using React for a library, and utilized Material UI and SCSS for styling. I used Bcrypt for password encryption. I used Amazon S3 to upload photos and display photos on the website. ChartJS was used to display product and user data. Stripe was used for checkout for the  security and peace of mind for customers. </p>
