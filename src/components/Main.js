@@ -66,11 +66,11 @@ class Main extends React.Component {
           <form method="post" action="#" data-netlify="true" data-netlify-honeypot="bot-field">
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name"  />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" name="bot-field" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
