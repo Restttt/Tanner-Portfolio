@@ -54,7 +54,7 @@ class Main extends React.Component {
           <hr />
           <div>
           <a href="http://165.22.148.103:3999/#/" rel="noopener noreferrer" target="_blank"><h3>WhiteBoard</h3></a>
-            <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={Whiteboard} alt="website screenshot" /></a></span>
+            <span className="image main"><a href="http://165.22.148.103:3999/#/" rel="noopener noreferrer" target="_blank"><img src={Whiteboard} alt="website screenshot" /></a></span>
             <h5>HTML | SASS | REACT | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
             <h6>username: jwick</h6>
             <h6>password: halo</h6>
