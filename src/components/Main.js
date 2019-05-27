@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 
 import AFIPICTURE from '../images/AFIPICTURE.png';
+import Whiteboard from '../images/Whiteboard.png'
 import Tanner from '../images/tanner.png';
 import ReactLogo from '../images/reactIcon.png';
 import CSSLogo from '../images/cssIcon.png';
@@ -49,6 +50,18 @@ class Main extends React.Component {
             <h5>REACT | JS | HTML | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
             <p>eCommerce site for a Paint Supply store. The app was built using React for a library, and utilized Material UI and SCSS for styling. I used Bcrypt for password encryption. I used Amazon S3 to upload photos and display photos on the website. ChartJS was used to display product and user data. Stripe was used for checkout for the  security and peace of mind for customers. </p>
             <p>Admins have special access to a dashboard. The dashboard shows all orders, with a search bar to search by company name or by the order id. They can customize charts to get the data they would like, as well as what chart type. They also have the ability to add new products to the database, hide products from the store, and update the inventory. </p>
+          </div>
+          <hr />
+          <div>
+          <a href="http://165.22.148.103:3999/#/" rel="noopener noreferrer" target="_blank"><h3>WhiteBoard</h3></a>
+            <span className="image main"><a href="https://tannerpaintsupply.com/#/" rel="noopener noreferrer" target="_blank"><img src={Whiteboard} alt="website screenshot" /></a></span>
+            <h5>HTML | SASS | REACT | MATERIAL UI | NODEJS | EXPRESS | POSTGRESQL |</h5>
+            <h6>username: jwick</h6>
+            <h6>password: halo</h6>
+            <p>Cloned canvas. Came up with the name whiteboard because Canvas old name was Blackboard. Learned more about Sass on this project, as well as working with large databases with many tables and different SQL calls. Used a lot of functions, and used Jest and Cypress to animate testing to make sure the functionality of the website was working. </p>
+            <p>Students are able to see upcoming assignments, recently graded assignments, announcements, syllabus, submit assignments, and see class Forum. </p>
+            <p>Teachers are able to add announcments, preview submitted assignments and download them, grade students, and more.</p>
+            <p>Website has a fully functional calendar where you can add your own events, move times, and see all upcoming items.</p>
           </div>
           {close}
         </article>
