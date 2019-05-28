@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
+  "name": "tanner-scaddden-portfolio",
+  "description": "Tanner Scadden - Portfolio website",
   "version": "1.0.0",
-  "author": "Hunter Chang",
+  "author": "Tanner Scadden",
   "dependencies": {
     "gatsby": "^2.4.2",
     "gatsby-plugin-favicon": "^3.1.6",
